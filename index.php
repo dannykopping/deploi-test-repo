@@ -1,3 +1,3 @@
 <?php
-	$version = "branch1";
+	$version = "tag1";
 	echo "You have loaded [$version]";
