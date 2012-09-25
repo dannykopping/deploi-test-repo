@@ -1,0 +1,6 @@
+[submodule "vendor/php-activerecord/php-activerecord"]
+	path = vendor/php-activerecord/php-activerecord
+	url = git://github.com/kla/php-activerecord
+[submodule "vendor/slim/slim"]
+	path = vendor/slim/slim
+	url = git://github.com/codeguy/Slim
