@@ -21,8 +21,8 @@
 		{
 		    $cfg->set_model_directory('models');
 		    $cfg->set_connections(array(
-//		        'development' => 'mysql://root:mac150189@localhost/deploi-test'));
-		        'development' => 'mysql://root:root@172.16.64.147/deploi-test'));
+//		        'development' => 'mysql://deploi:deploi@localhost/deploi-test'));
+		        'development' => 'mysql://deploi:deploi@172.16.64.147/deploi-test'));
 		});
 
 		$u = User::create(array("firstName" => "Danny", "email" => "danny".mt_rand(100,999)."@ria-coder.com"));
